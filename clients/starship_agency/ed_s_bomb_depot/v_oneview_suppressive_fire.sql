@@ -1,11 +1,11 @@
-DROP VIEW IF EXISTS v_oneview_suppressive_fire;
-CREATE VIEW v_oneview_suppressive_fire
+DROP VIEW IF EXISTS ed_s_bomb_depot.v_oneview_not_the_same_one;
+CREATE VIEW ed_s_bomb_depot.v_oneview_not_the_same_one
 AS
 SELECT field1
   , field2
-FROM table1
+FROM table2
 ;
 
--- GRANT SELECT ON v_oneview_suppressive_fire
+-- GRANT SELECT ON ed_s_bomb_depot.v_oneview_not_the_same_one
 -- TO <reporting_user>
 -- ;
