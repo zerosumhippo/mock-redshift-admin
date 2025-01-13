@@ -1,5 +1,5 @@
-DROP VIEW IF EXISTS v_oneview_suppressive_fire;
-CREATE VIEW v_oneview_suppressive_fire
+DROP VIEW IF EXISTS v_oneview_viva_earth;
+CREATE VIEW v_oneview_viva_earth
 AS
 SELECT field1
   , field2
@@ -24,6 +24,6 @@ SELECT field1
 FROM table1
 ;
 
--- GRANT SELECT ON v_oneview_suppressive_fire
+-- GRANT SELECT ON v_oneview_viva_earth
 -- TO <reporting_user>
 -- ;
